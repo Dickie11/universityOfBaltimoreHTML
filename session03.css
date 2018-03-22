@@ -1,0 +1,60 @@
+body { font-family: Verdana, Helvetica, sans-serif; 
+}
+div p { 
+	font-family:  "Times New Roman", Georgia, serif; 
+	line-height:2.0em;
+	word-spacing:1.0em;
+	text-align:justify;
+	text-indent: 20px;
+	background-color: yellow;
+	height: 300px;
+	width: 400px;
+	overflow: scroll;
+	border-width: thick;
+	border-style: solid;
+	border-color: green;
+	padding: 20px;
+	margin: 30px auto 30px auto;
+}
+a:link{
+	font-size:100%
+	text-decoration: none;
+	color:black;
+}
+a:visited{
+	font-family: Courier, monospace;
+	font-size: 24px;
+	font-variant: small-caps;
+	text-decoration:none;
+	text-align: right;
+	color: orange;
+}
+a:active{
+	color:green;
+}
+a:hover{
+	font-size:200%;
+	color: blue;
+}
+
+a {
+	font-family:  Courier, monospace;
+	font-size:24px;
+	font-variant: small-caps;
+	text-decoration:none;
+	text-align: right;
+}
+p#intro:first-line{
+	font-size: 200%
+	letter-spacing: 0.3em;
+	text-shadow:1px 1px 0px red;
+}
+.w{
+	font-size:0.5em;
+	text-transform: uppercase;
+	visibility: hidden;
+}
+em{
+	text-decoration:underline;
+}
+
