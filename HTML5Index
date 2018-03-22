@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Glow-worm and Other Insects</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="html5layout.css" type="text/css" />
+<script language="Javascript">
+ <!--
+ //document.write("This document has been invaded by JavaScript.");
+ //alert("In case you didn't notice, this document has been invaded by JavaScript.");
+ var userID = null;
+var password = null;
+userID = prompt("Enter user ID");
+password = prompt("Enter password");
+if (userID == "bob" && password == "cat")
+{
+ alert("Login valid");
+  
+
+}
+else
+{
+ alert("Login failed");
+// window.location = "http://www.google.com/"
+}
+ -->
+ </script>
+</head>
+<body>
+<div class="wrapper">
+<header>
+<hgroup>
+<h1>The Glow-worm and Other Insects</h1>
+<h2>by J. Henri Fabre</h2>
+</hgroup>
+<nav>
+<ul>
+<li class="current"><a href = "">home</a></li>
+<li><a href = "">beetles</a></li>
+<li><a href = "">other bugs</a></li>
+<li><a href = "">recipes</a></li>
+<li><a href = "">contact</a></li>
+</ul>
+</nav>
+</header>
+<article>
+<figure>
+<img src="http://a-z-animals.com/media/animals/images/470x370/glow_worm3.jpg" alt = "Glow worm" />
+<figcaption>Picture of Glow Worm.</figcaption>
+</figure>
+Few insects in our climes vie in popular fame with the <span class = "w">Glow-worm</span>,
+that curious little animal which, to celebrate the little joys of
+life, kindles a beacon at its tail-end. Who does not know it, at
+least by name? Who has not seen it roam amid the grass, like a spark
+fallen from the moon at its full? The Greeks of old called it [Greek:
+lampouris], meaning, the bright-tailed. Science employs the same
+term: it calls the lantern-bearer, <em>Lampyris noctiluca</em>, LIN. In this
+case, the common name is inferior to the scientific phrase, which,
+when translated, becomes both expressive and accurate.
+In fact, we might easily cavil at the word <q><span class = "w">worm</span>.</q> The Lampyris is
+not a <span class = "w">worm</span> at all, not even in general appearance. He has six short
+legs, which he well knows how to use; he is a gad-about, a
+trot-about. In the adult state, the male is correctly garbed in
+wing-cases, like the true Beetle that he is. The female is an
+ill-favoured thing who knows naught of the delights of flying: all
+her life long, she retains the larval shape, which, for the rest, is
+similar to that of the male, who himself is imperfect so long as he
+has not achieved the maturity that comes with pairing-time. Even in
+this initial stage, the word <q><span class = "w">worm</span></q> is out of place. We French have
+the expression <q>Naked as a <span class = "w">worm</span>,</q> to point to the lack of any
+defensive covering. Now the Lampyris is clothed, that is to say, he
+wears an epidermis of some consistency; moreover, he is rather richly
+coloured: his body is dark brown all over, set off with pale pink on
+the thorax, especially on the lower surface. Finally, each segment is
+decked at the hinder edge with two spots of a fairly bright red. A
+costume like this was never worn by a <span class = "w">worm</span>.
+</article>
+<aside>
+
+<footer>
+From <a href="http://www.gutenberg.org/files/27868/27868-h/27868-h.htm">The Glow-worm and Other Beetles by J. Henri Fabre</a>
+</footer>
+<a href = "http://a-z-animals.com/animals/glow-worm/">
+<section>
+<h3>Glow-worm Facts</h3>
+<ul>
+<li class="sidebar">The lights on the ends of their tails are green and yellow.</li>
+<li class="sidebar">They are nocturnal.</li>
+<li class="sidebar">They are most commonly found between June and October.</li>
+<li class="sidebar">They lay their eggs in moist areas.</li>
+</ul>
+</section>
+</a>
+<section>
+<h3>Related Animals</h3>
+<ul>
+<li class="sidebar">Ants</li>
+<li class="sidebar">Cockroaches</li>
+<li class="sidebar">Termites</li>
+<li class="sidebar">Earwigs</li>
+</ul>
+</section>
+<section>
+<h3>Glow Worm Sounds</h3>
+<ul>
+<li class="sidebar">Feeding
+<audio controls>
+ <source src="http://static1.grsites.com/archive/sounds/horror/horror001.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</li>
+<li class="sidebar">Angry
+<audio controls>
+ <source src="http://static1.grsites.com/archive/sounds/horror/horror002.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</li>
+<li class="sidebar">Competition
+<audio controls>
+ <source src="http://static1.grsites.com/archive/sounds/horror/horror003.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</li>
+</ul>
+</section>
+<section>
+<h3>Other Worm Videos</h3>
+<ul>
+<li class="sidebar">Climbing a Tree
+<video width="320" height="240" controls>
+ <source src="https://ia600402.us.archive.org/2/items/a_worm/ER395_1_512kb.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</li>
+<li class="sidebar">Worm in a Cave
+<video width="320" height="240" controls>
+ <source src="https://ia600308.us.archive.org/10/items/CaveWorm/KeeWormCave_512kb.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</li>
+</ul>
+</section>
+</aside>
+</div>
+</body>
+</html>
