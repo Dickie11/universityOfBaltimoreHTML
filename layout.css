@@ -1,0 +1,26 @@
+body {
+width: 80%;
+max-width: 1200px;
+ min-width: 900px; 
+/*height 0, width auto for centering*/
+margin: 0 auto;
+}
+div {
+border: 2px solid;
+padding: 10px;
+overflow: auto;
+}
+p {
+position: relative;
+float: left;
+background-color: rgb(200,200,200);
+width: 45%;
+height: 30em;
+margin: 10px 10px 10px 10px;
+font-family: serif;
+padding: 10px;
+}
+p#credits {
+clear: left;
+height: auto;
+}
