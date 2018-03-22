@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html>
+		<!--David Dickens 2/22/16-->
+	<head><link rel="stylesheet" type="text/css" href="css3clock.css" /></head>
+		<title>Grid</title>
+	<body> 
+		<H1> A GRID OF INTERESTING THINGS</H1>
+			
+			
+			
+			
+			
+			
+
+					
+
+		<table>Grid
+			<tr>
+				<!-- COLUMN ONE-->
+				<th><h2>IMAGES</h2></th>
+				
+				<!--COLUMN TWO>
+				<th><h2>VIDEOS</h2></th>
+				
+				<!--COLUMN THREE-->
+				<th><h2>TEXT</h2></th>
+				
+				<!--COLUMN FOUR-->
+				<th><h2>RANDOM</h2></th>
+				
+				<!--COLUMN FIVE-->
+				<th><h2>PRACTICE</h2></th>
+			</tr>
+				<!--C1 R1-->
+				<td><img src="images/moroccanShoes.jpg"alt="Moroccan Shoes" title="moroccan shoes"/>By <a href="//commons.wikimedia.org/w/index.php?title=User:Pitchoon76&amp;action=edit&amp;redlink=1" class="new" title="User:Pitchoon76 (page does not exist)">Pitchoon76</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, https://commons.wikimedia.org/w/index.php?curid=43899818</td>
+				
+				<!--C2 R1-->
+				<td><iframe width="560" height="315" src="https://www.youtube.com/embed/ppo8RRaeqN0" frameborder="0" allowfullscreen></iframe></td>
+				
+				<!--C3 R1-->
+				<td><a href="http://geck.bethsoft.com/index.php?title=How_to_script_conversation_between_two_or_more_NPCs">NPC conversation coding</a></td>
+				
+				<!--C4 R1-->
+				<td>	<script type="text/javascript">
+        						 <!--
+            							function sayHello() {
+               							alert("Hello World")
+          									  }
+         								//-->
+     					 </script>
+ 								<input type="button" onclick="sayHello()" value="Say Hello" />
+				</td>
+				
+				<!--C5 R1 javascript analogue clock-->
+				<td><div id="liveclock" class="outer_face">
+
+<div class="marker oneseven"></div>
+<div class="marker twoeight"></div>
+<div class="marker fourten"></div>
+<div class="marker fiveeleven"></div>
+
+<div class="inner_face">
+<div class="hand hour"></div>
+<div class="hand minute"></div>
+<div class="hand second"></div>
+</div>
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+/***********************************************
+* CSS3 Analog Clock- by JavaScript Kit (www.javascriptkit.com)
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and 100s more
+***********************************************/
+
+var $hands = $('#liveclock div.hand')
+
+window.requestAnimationFrame = window.requestAnimationFrame
+                               || window.mozRequestAnimationFrame
+                               || window.webkitRequestAnimationFrame
+                               || window.msRequestAnimationFrame
+                               || function(f){setTimeout(f, 60)}
+
+
+function updateclock(){
+	var curdate = new Date()
+	var hour_as_degree = ( curdate.getHours() + curdate.getMinutes()/60 ) / 12 * 360
+	var minute_as_degree = curdate.getMinutes() / 60 * 360
+	var second_as_degree = ( curdate.getSeconds() + curdate.getMilliseconds()/1000 ) /60 * 360
+	$hands.filter('.hour').css({transform: 'rotate(' + hour_as_degree + 'deg)' })
+	$hands.filter('.minute').css({transform: 'rotate(' + minute_as_degree + 'deg)' })
+	$hands.filter('.second').css({transform: 'rotate(' + second_as_degree + 'deg)' })
+	requestAnimationFrame(updateclock)
+}
+
+requestAnimationFrame(updateclock)
+
+
+</script><div id="liveclock" class="outer_face">
+
+<div class="marker oneseven"></div>
+<div class="marker twoeight"></div>
+<div class="marker fourten"></div>
+<div class="marker fiveeleven"></div>
+
+<div class="inner_face">
+<div class="hand hour"></div>
+<div class="hand minute"></div>
+<div class="hand second"></div>
+</div>
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+/***********************************************
+* CSS3 Analog Clock- by JavaScript Kit (www.javascriptkit.com)
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and 100s more
+***********************************************/
+
+var $hands = $('#liveclock div.hand')
+
+window.requestAnimationFrame = window.requestAnimationFrame
+                               || window.mozRequestAnimationFrame
+                               || window.webkitRequestAnimationFrame
+                               || window.msRequestAnimationFrame
+                               || function(f){setTimeout(f, 60)}
+
+
+function updateclock(){
+	var curdate = new Date()
+	var hour_as_degree = ( curdate.getHours() + curdate.getMinutes()/60 ) / 12 * 360
+	var minute_as_degree = curdate.getMinutes() / 60 * 360
+	var second_as_degree = ( curdate.getSeconds() + curdate.getMilliseconds()/1000 ) /60 * 360
+	$hands.filter('.hour').css({transform: 'rotate(' + hour_as_degree + 'deg)' })
+	$hands.filter('.minute').css({transform: 'rotate(' + minute_as_degree + 'deg)' })
+	$hands.filter('.second').css({transform: 'rotate(' + second_as_degree + 'deg)' })
+	requestAnimationFrame(updateclock)
+}
+
+requestAnimationFrame(updateclock)
+
+
+</script></td>
+			
+			<tr>
+				<!--C1 R2-->
+				<td><img src="images/lightning.jpg"alt="lightning in lodon"title="Lightning in london"/>By <a href="//commons.wikimedia.org/wiki/User:Mattbuck" title="User:Mattbuck">mattbuck</a> (<a href="//commons.wikimedia.org/wiki/Category:Images_taken_by_mattbuck" title="Category:Images taken by mattbuck">category</a>) - <span class="int-own-work" lang="en">Own work</span> by <a href="//commons.wikimedia.org/wiki/User:Mattbuck" title="User:Mattbuck">mattbuck</a>., <a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, https://commons.wikimedia.org/w/index.php?curid=35759343</td>
+				
+				<!--C2 R2-->
+				<td><iframe width="420" height="315" src="https://www.youtube.com/embed/OAX7af8CZwQ" frameborder="0" allowfullscreen></iframe></td>
+				
+				<!--C3 R2-->
+				<td>	<script type="text/javascript">
+         						<!--
+            						var a = 10;
+           						var b = 20;
+            						var linebreak = "<br />";
+      
+            						document.write("(a == b) => ");
+            						result = (a == b);
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("(a < b) => ");
+            						result = (a < b);
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("(a > b) => ");
+            						result = (a > b);
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("(a != b) => ");
+            						result = (a != b);
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("(a >= b) => ");
+            						result = (a >= b);
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("(a <= b) => ");
+            						result = (a <= b);
+            						document.write(result);
+            						document.write(linebreak);
+         									//-->
+      					</script>
+				
+				</td>
+				
+				<!--C4 R2-->
+				<td>	<script type="text/javascript">
+         							<!--
+            						var a = 33;
+            						var b = 10;
+            						var c = "Test";
+            						var linebreak = "<br />";
+         
+            						document.write("a + b = ");
+            						result = a + b;
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("a - b = ");
+            						result = a - b;
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("a / b = ");
+            						result = a / b;
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("a % b = ");
+            						result = a % b;
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						document.write("a + b + c = ");
+            						result = a + b + c;
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						a = ++a;
+            						document.write("++a = ");
+            						result = ++a;
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						b = --b;
+            						document.write("--b = ");
+            						result = --b;
+            						document.write(result);
+            						document.write(linebreak);
+         									//-->
+      					</script>
+
+				</td>
+			
+				<!--C5 R2-->
+				<td> 		<script type="text/javascript">
+        								 <!--
+            						var a = 10;
+            						var b = "String";
+            						var linebreak = "<br />";
+         
+            						result = (typeof b == "string" ? "B is String" : "B is Numeric");
+            						document.write("Result => ");
+            						document.write(result);
+            						document.write(linebreak);
+         
+            						result = (typeof a == "string" ? "A is String" : "A is Numeric");
+            						document.write("Result => ");
+            						document.write(result);
+            						document.write(linebreak);
+         									//-->
+      					</script>
+			
+				</td>
+			
+			</tr>
+			
+			<tr>
+				<!--c1 R3-->
+				<td><img src="images/buddha.jpg"alt="Sandstone Buddha"title="Sandstone Buddha"/>By <a href="//commons.wikimedia.org/wiki/User_talk:Siripatwongpin" title="User talk:Siripatwongpin">Siripatwongpin</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, https://commons.wikimedia.org/w/index.php?curid=43737356</td>
+				
+				<!--C2 R3-->
+				<td><iframe width="560" height="315" src="https://www.youtube.com/embed/iR9Ax4EcqTI" frameborder="0" allowfullscreen></iframe></td>
+				
+				<!--C3 R3-->
+				<td><p id="w3schools"><iframe src="http://www.w3schools.com"></p></td>
+				
+				<!--c4 r3-->
+				<td><p><a href="#liveclock">go to live clock</a></p></td>
+				
+				<!--C5 R3-->
+				<td><a href="http://www.indiegames.com/">indie games</a></td>
+			
+			</tr>
+			
+			<tr>
+				<!--C1 R4-->
+				<td><p id ="flower"><img src="images/beautiful.jpg"alt="beautiful"title"beautiful"/></p></td>
+				
+				<!--C2 R4-->
+				<td><iframe width="560" height="315" src="https://www.youtube.com/embed/keFBEoBy0zY" frameborder="0" allowfullscreen></iframe></td>
+				
+				<!--C4 R4-->
+				<td><p id="wikipedia"><iframe width="700" height="410" src="https://www.wikipedia.org/" frameborder="1" allowfullscreen></iframe></p></td>
+				
+				<!--C4 R4 THIS NEEDS TO SPAN MULTIPLE CELLS-->
+				<td><p><a href="#folkine">go to folkine"</a></p></td>
+				
+				<!--C5 R4-->
+				
+			</tr>
+			
+			<tr>
+				<!--C1 R5-->
+				<td colspan="2"><p id ="folkine"><img src="images/fokine.jpg"alt="Michel Folkine"title="Michel Fokine"/></p></td>
+				
+				<!--C2 R5-->
+				<td><p><a href="#w3schools">go to w3schools</a></p></td>
+				
+				<!--C3 R5-->
+				<td><iframe width="700" height="410" src="http://www.ubalt.edu/index.cfm" frameborder="0" allowfullscreen></iframe></td>
+				
+				<!--C4 R5 THIS NEEDS TO SPAN MULTIPLE CELLS-->
+				<td><iframe width="560" height="315" src="https://www.youtube.com/embed/HB86UBF_tvg" frameborder="0" allowfullscreen></iframe></td>
+				
+				<!--C5 R5-->
+				
+			</tr>
+		
+		</table>
+
+	</body>
+
+
+
+</html>
