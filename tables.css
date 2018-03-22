@@ -1,0 +1,24 @@
+table {
+border: 2px solid black;
+}
+th, td {
+padding: 7px 10px 10px 10px;
+border: 1px dotted rgb(0,100,0);
+text-align: center;
+
+
+}
+th {
+font-variant: small-caps;
+letter-spacing: 0.1em;
+background-color: rgb(220,220,255);
+cursor: pointer;
+}
+td {
+background-color: rgb(255,220,220);
+text-transform: lowercase;
+cursor: move; 
+}
+td:hover {
+background-color: white;
+}
