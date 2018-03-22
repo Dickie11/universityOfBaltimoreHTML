@@ -1,0 +1,38 @@
+/* CSS by David Dickens*/
+body{
+	min-width: 600px;
+	max-width: 800px;
+	text-align: justify;
+	background-color: #a64100;	
+	margin: 30px auto 30px auto;
+}
+p{
+	font-family: "serif";
+	color: #ffbc73;
+	background-color: #bf7930 ;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #ff8a40;
+	padding: 15px;
+	margin: 30px auto 30px auto;
+
+
+		
+	
+}
+h1{
+	font-family: "sans-serif";
+	text-transform: uppercase;
+	line-height: 2.0em;
+	color: #ffab73;
+}
+h2{
+	font-family: "sans-serif";
+	text-transform: uppercase;
+	line-height: 2.0em;
+	color: #ffab73;
+}
+#caption{
+	font-family: "small-caps";
+	font-size: .5em;
+}
